@@ -620,13 +620,13 @@ MonoBehaviour:
   foamResolution: 512
   foamAreaSize: {x: 200, y: 200}
   foamAreaOffset: {x: 0, y: 0}
-  foamPersistenceMultiplier: 0.5
+  foamPersistenceMultiplier: 0.75
   foamCurrentInfluence: 0.6
   foamColor: {r: 1, g: 1, b: 1, a: 1}
   foamTextureTiling: 0.15
-  foamSmoothness: 1
+  foamSmoothness: 0.875
   simulationFoam: 1
-  simulationFoamAmount: 0.2
+  simulationFoamAmount: 0.861
   simulationFoamMask: {fileID: 0}
   simulationFoamMaskExtent: {x: 100, y: 100}
   simulationFoamMaskOffset: {x: 0, y: 0}
@@ -635,28 +635,10 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.2
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.3
       value: 1
       inSlope: 0
       outSlope: 0
-      tangentMode: 0
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0
@@ -665,7 +647,7 @@ MonoBehaviour:
       value: 1
       inSlope: 0
       outSlope: 0
-      tangentMode: 0
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0
@@ -673,7 +655,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   repetitionSize: 1973
-  largeOrientationValue: 0
+  largeOrientationValue: 270
   largeWindSpeed: 44
   largeChaos: 0.85
   largeBand0Multiplier: 1
@@ -687,7 +669,7 @@ MonoBehaviour:
   ripples: 1
   ripplesMotionMode: 0
   ripplesOrientationValue: 0
-  ripplesWindSpeed: 8
+  ripplesWindSpeed: 9.27
   ripplesChaos: 0.8
   ripplesFadeMode: 1
   ripplesFadeStart: 50
@@ -711,6 +693,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &272524165
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 900096680913996780, guid: 02c38e5bb7372674bb2c42dbc9d38d92, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2c01b3c6233a861478780e0c49479cb3, type: 2}
+    - target: {fileID: 6564027734027906077, guid: 02c38e5bb7372674bb2c42dbc9d38d92, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -23.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6564027734027906077, guid: 02c38e5bb7372674bb2c42dbc9d38d92, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 6564027734027906077, guid: 02c38e5bb7372674bb2c42dbc9d38d92, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 40.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6564027734027906077, guid: 02c38e5bb7372674bb2c42dbc9d38d92, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7977619
+      objectReference: {fileID: 0}
+    - target: {fileID: 6564027734027906077, guid: 02c38e5bb7372674bb2c42dbc9d38d92, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.28027937
+      objectReference: {fileID: 0}
+    - target: {fileID: 6564027734027906077, guid: 02c38e5bb7372674bb2c42dbc9d38d92, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.53312355
+      objectReference: {fileID: 0}
+    - target: {fileID: 6564027734027906077, guid: 02c38e5bb7372674bb2c42dbc9d38d92, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.02826218
+      objectReference: {fileID: 0}
+    - target: {fileID: 6564027734027906077, guid: 02c38e5bb7372674bb2c42dbc9d38d92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -28.511
+      objectReference: {fileID: 0}
+    - target: {fileID: 6564027734027906077, guid: 02c38e5bb7372674bb2c42dbc9d38d92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -71.801
+      objectReference: {fileID: 0}
+    - target: {fileID: 6564027734027906077, guid: 02c38e5bb7372674bb2c42dbc9d38d92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 16.785
+      objectReference: {fileID: 0}
+    - target: {fileID: 6961824526657598876, guid: 02c38e5bb7372674bb2c42dbc9d38d92, type: 3}
+      propertyPath: m_Name
+      value: Shipwreck
+      objectReference: {fileID: 0}
+    - target: {fileID: 6961824526657598876, guid: 02c38e5bb7372674bb2c42dbc9d38d92, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 02c38e5bb7372674bb2c42dbc9d38d92, type: 3}
 --- !u!1001 &357464331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -786,7 +833,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1000011143488790, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1048880363}
   m_SourcePrefab: {fileID: 100100000, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
 --- !u!1 &432432459
 GameObject:
@@ -837,6 +887,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1048880360 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011143488790, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+  m_PrefabInstance: {fileID: 357464331}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1048880363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048880360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0050ecd2d32680645848edd91f37442d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  regionSize: {x: 20, y: 20}
+  texture: {fileID: 0}
+  resolution: {x: 256, y: 256}
+  updateMode: 0
+  material: {fileID: 0}
+  surfaceFoamDimmer: 1
+  deepFoamDimmer: 1
+  scaleMode: 0
+  m_Version: 1
 --- !u!1 &1140072955
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,6 +1054,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1477812687 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013569322780, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+  m_PrefabInstance: {fileID: 1711551171}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1477812690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477812687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0050ecd2d32680645848edd91f37442d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  regionSize: {x: 20, y: 20}
+  texture: {fileID: 0}
+  resolution: {x: 256, y: 256}
+  updateMode: 0
+  material: {fileID: 0}
+  surfaceFoamDimmer: 1
+  deepFoamDimmer: 1
+  scaleMode: 0
+  m_Version: 1
 --- !u!1001 &1711551171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1048,7 +1152,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1000013569322780, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1477812690}
   m_SourcePrefab: {fileID: 100100000, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
 --- !u!1001 &1759425168
 PrefabInstance:
@@ -1210,13 +1317,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823688464}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.021295162, y: 0.28361058, z: -0.0062998277, w: 0.95868236}
+  m_LocalRotation: {x: 0.021589346, y: -0.23423614, z: 0.0052030757, w: 0.9719261}
   m_LocalPosition: {x: 0, y: 7.6, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 2.545, y: 32.96, z: 0}
+  m_LocalEulerAnglesHint: {x: 2.545, y: -27.1, z: 0}
 --- !u!114 &1823688468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1596,3 +1703,4 @@ SceneRoots:
   - {fileID: 357464331}
   - {fileID: 1711551171}
   - {fileID: 1759425168}
+  - {fileID: 272524165}
