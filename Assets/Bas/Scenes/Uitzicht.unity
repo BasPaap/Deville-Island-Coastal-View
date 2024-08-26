@@ -556,14 +556,14 @@ MonoBehaviour:
   geometryType: 3
   meshRenderers: []
   timeMultiplier: 1
-  scriptInteractions: 1
+  scriptInteractions: 0
   cpuEvaluateRipples: 0
   customMaterial: {fileID: 0}
   startSmoothness: 0.95
   endSmoothness: 0.85
   smoothnessFadeStart: 100
   smoothnessFadeDistance: 500
-  tessellation: 1
+  tessellation: 0
   maxTessellationFactor: 3
   tessellationFactorFadeStart: 150
   tessellationFactorFadeRange: 1850
@@ -617,7 +617,7 @@ MonoBehaviour:
   deformationAreaSize: {x: 200, y: 200}
   deformationAreaOffset: {x: 0, y: 0}
   foam: 1
-  foamResolution: 512
+  foamResolution: 256
   foamAreaSize: {x: 200, y: 200}
   foamAreaOffset: {x: 0, y: 0}
   foamPersistenceMultiplier: 0.75
